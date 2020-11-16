@@ -2,6 +2,7 @@ body{
     background: whitesmoke;
     scroll-behavior: smooth;
     padding-top:0;
+    background-color: #f2f2f2;
 }
 
 .navbar-nav{
@@ -9,6 +10,7 @@ body{
   
 
 }
+
 .img-fluid{
   width:100%;
   height:50%;
@@ -20,12 +22,24 @@ body{
   left: 0;
   z-index:100;
 }
+
+.page-footer{
+  min-width:120%;
+ bottom:0;
+ left:0;
+ right:0;
+  z-index: $zindex-fixed;
+  min-height: 100%;
+  padding-bottom: -px;
+  margin:0 -5px 0px 0px;
+
+}
 #img{
     padding-top: 10px;
     margin-left: 40px;
-    height: 80%;
-    width: 30%;
-    border-radius: 60%;
+    height: 90%;
+    width: 40%;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
     opacity: 2%;
@@ -33,10 +47,10 @@ body{
 }
 #img2{
     margin-left: 100px;
-    height: 45%;
+    height: 55%;
     width: 60%;
     margin-top:40px;
-    border-radius: 60%;
+    border-radius: 80%;
     
     
 }
@@ -60,7 +74,7 @@ display: inline;
 }
 
 header {
-  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d242202-387f-4055-8ff6-466033e4a627/d875ydm-f7d0b1c7-ba08-4303-bfdf-4de8b7c00ec1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOGQyNDIyMDItMzg3Zi00MDU1LThmZjYtNDY2MDMzZTRhNjI3XC9kODc1eWRtLWY3ZDBiMWM3LWJhMDgtNDMwMy1iZmRmLTRkZThiN2MwMGVjMS5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.lABfSa4Jh3z5PPzDRIemUp2AlwrswaquMkxa3ZSH6kw") fixed;
+  background: url("https://images.unsplash.com/photo-1543128639-4cb7e6eeef1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80") fixed;
   height: 300px;
   color: white;
   font-weight: light;
@@ -124,7 +138,8 @@ form{
 }
 h3{
   text-align: center;
-  margin-left:200px;
+ /* margin-left:200px;*/
+ padding-top: 20px;
   
 }
 h4{
@@ -151,13 +166,13 @@ ul.social-network {
   list-style: none;
   display: inline;
   margin-left:0 !important;
-  padding: 0;
+  padding: 20px;
 
 }
 ul.social-network li {
   display: inline;
   margin: 0 px;
-  padding-left: px;
+  padding:30px;
 
 }
 
@@ -206,7 +221,7 @@ a.socialIcon:hover, .socialHoverClass {
   width: 50px;
   height: 50px;
   font-size:20px;
-  background-color: #050121;
+  background-color: #0f5f85;
 }
 .social-circle li i {
   margin:0;
@@ -262,6 +277,9 @@ a { color: white; text-decoration: none; }
   60% {
     transform: translateY(-15px);
   }
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
-
+* {
+  font-family: Open Sans;
+}
 
